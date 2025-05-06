@@ -4,6 +4,7 @@ body {
     font-weight: 100;
     font-style: normal;
     background-image: linear-gradient(rgb(150, 42, 9), rgb(12, 12, 12));
+    color: white;
   }
 
 header {
@@ -31,7 +32,7 @@ header {
 .subCabeçalho{
   display: flex;
   border-radius: 10px;
-  margin: 9%;
+  margin-top: 5%;
   align-items: center;
 }
 
@@ -53,4 +54,33 @@ header {
 
 .musicasOuvidas{
   column-count: 3;
+}
+
+.transparente {
+  border-radius: 8px;
+  background-color: rgb(61, 58, 58);
+  opacity: 0.8;
+  margin-right: 2%;
+  align-items: center;
+  padding: 2%;
+  color: white;
+}
+
+.pontos > input{
+  align-items: center;
+  width: 2%;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flex button {
+  max-width: 20%;
+  height: 10%;
+  margin-top: 6%;
+  background-color: transparent;
+  color: white;
 }
